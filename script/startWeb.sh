@@ -12,4 +12,4 @@ sudo docker run \
     -p $EXPORT_PORT:80 \
     -v $MOUNT_CONFIG \
     -v $MOUNT_DIR \
-    -d $IMAGE_NAME
+    -d $IMAGE_NAME:$IMAGE_VERSION

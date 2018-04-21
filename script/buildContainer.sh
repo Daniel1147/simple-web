@@ -1,3 +1,5 @@
 #/usr/bin/env bash
 
-sudo docker pull $IMAGE_NAME
+source config.sh
+
+sudo docker pull $IMAGE_NAME:$IMAGE_VERSION
