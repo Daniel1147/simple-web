@@ -1,3 +1,3 @@
 #/usr/bin/env bash
 
-sudo docker pull nginx
+sudo docker pull $IMAGE_NAME

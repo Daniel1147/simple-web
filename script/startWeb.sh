@@ -12,4 +12,4 @@ sudo docker run \
     -p $EXPORT_PORT:80 \
     -v $MOUNT_CONFIG \
     -v $MOUNT_DIR \
-    -d nginx
+    -d $IMAGE_NAME
