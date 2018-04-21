@@ -5,6 +5,7 @@ IMAGE_VERSION='1.13'
 # web
 # WEB="/home/sxn91401/JAVA/codility/src/main/java"
 WEB="/home/sxn91401/gradlePractice/build/reports/tests/test"
+# WEB="/home/sxn91401/gradlePractice/build/docs"
 
 # container
 CONTAINER_NAME="web"
