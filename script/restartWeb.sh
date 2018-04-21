@@ -2,5 +2,5 @@
 
 source config.sh
 
-source stopWeb.sh
+source endWeb.sh
 source startWeb.sh
