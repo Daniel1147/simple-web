@@ -2,7 +2,5 @@
 
 source config.sh
 
-sudo docker stop web;
-sudo docker rm web;
-
+source stopWeb.sh
 source startWeb.sh

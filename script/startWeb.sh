@@ -2,4 +2,14 @@
 
 source config.sh
 
-sudo docker run ${CONTAINER_NAME} ${RESTART_POLICY} ${EXPORT_PORT} ${MOUNT_CONFIG} ${MOUNT_DIR} -d nginx
+if [ ! -d "$WEB" ]; then
+    mkdir -p "$WEB"
+fi
+
+sudo docker run \
+    --name $CONTAINER_NAME \
+    --restart $RESTART_POLICY \
+    -p $EXPORT_PORT:80 \
+    -v $MOUNT_CONFIG \
+    -v $MOUNT_DIR \
+    -d nginx
