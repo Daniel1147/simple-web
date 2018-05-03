@@ -3,9 +3,27 @@ IMAGE_NAME='nginx'
 IMAGE_VERSION='1.13'
 
 # web
-# WEB="/home/sxn91401/JAVA/codility/src/main/java"
-WEB="/home/sxn91401/gradlePractice/build/reports/tests/test"
-# WEB="/home/sxn91401/gradlePractice/build/docs"
+# ==========================
+# WEB='/home/sxn91401/MyPhp/includedScriptName'
+
+# MyPhp
+# WEB='/home/sxn91401/MyPhp'
+
+# WEB='/home/sxn91401/MyPhp/swapKeyCase'
+# WEB="/home/sxn91401/gradle/gradlePractice/build/reports/tests/test"
+
+# codility java test
+# WEB="/home/sxn91401/JAVA/codility/build/reports/tests/test"
+
+# codility code
+WEB="/home/sxn91401/JAVA/codility/src/main/java"
+
+# WEB="/home/sxn91401/gradle/gradlePractice/build/docs"
+# WEB="/home/sxn91401/gradle/creating-multi-project-build/greeting-library/build/reports"
+# WEB="/home/sxn91401/gradle/creating-multi-project-build/docs/build/asciidoc/html5"
+# WEB="/home/sxn91401/MyPhp/combination"
+# WEB="/home/sxn91401/tmp"
+# ==========================
 
 # container
 CONTAINER_NAME="web"
