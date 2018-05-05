@@ -7,6 +7,7 @@ sudo docker run \
     --restart $RESTART_POLICY \
     -p $EXPORT_PORT:80 \
     -v $MOUNT_CONFIG \
-    -v $MOUNT_DIR1 \
-    -v $MOUNT_DIR2 \
+    -v $MOUNT_JAVA \
+    -v $MOUNT_TEST \
+    -v $MOUNT_PHP \
     -d $IMAGE_NAME
