@@ -1,3 +1,5 @@
 FROM nginx:1.13
 
 RUN mv /usr/share/nginx/html/index.html /usr/share/nginx/html/default.html
+RUN ln -fs /usr/share/zoneinfo/Asia/Taipei /etc/localtime \
+    && dpkg-reconfigure --frontend noninteractive tzdata
