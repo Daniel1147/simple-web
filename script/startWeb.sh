@@ -2,8 +2,8 @@
 
 source config.sh
 
-if [ ! -d "$WEB" ]; then
-    mkdir -p "$WEB"
+if [ ! -d "$WEB_DIR" ]; then
+    mkdir -p "$WEB_DIR"
 fi
 
 sudo docker run \
