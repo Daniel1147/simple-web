@@ -2,4 +2,4 @@
 
 source config.sh
 
-sudo docker pull $IMAGE_NAME:$IMAGE_VERSION
+sudo docker build -f $DOCKERFILE_PATH -t $IMAGE_NAME .
